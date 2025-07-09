@@ -71,11 +71,11 @@
         gaming {
             display-name = "Gaming";
             bindings = <
-&kp ESC  &kp N1          &kp N2  &kp N3  &kp N4  &kp N5  &none                                                    &mo 3      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
-&none    &none           &kp Q   &kp W   &kp E   &kp R   &trans                                                   &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
-&none    &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &none      &kp G    &kp ENTER      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
-&none    &kp LCTRL       &kp Z   &kp X   &kp C   &kp V                       &none          &kp PG_UP                        &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&none    &kp LEFT_ALT    &none   &none   &none           &kp SPACE  &kp TAB  &kp M          &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 2
+&none  &kp N1          &kp N2  &kp N3  &kp N4  &kp N5  &none                                                     &mo 3      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
+&none  &none           &kp Q   &kp W   &kp E   &kp R   &trans                                                    &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
+&none  &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &none      &kp G    &kp ENTER       &kp LGUI   &kp RCTRL  &none      &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
+&none  &kp LCTRL       &kp Z   &kp X   &kp C   &kp V                       &kp M           &kp PG_UP                        &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
+&none  &kp LEFT_ALT    &none   &none   &none           &kp SPACE  &kp TAB  &kp ESCAPE      &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
     };
