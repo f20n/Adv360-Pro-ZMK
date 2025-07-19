@@ -82,11 +82,11 @@
         home_row_mods {
             display-name = "hm";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4         &kp N5                &tog 1                                                       &mo 3      &kp N6                 &kp N7            &kp N8        &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R          &kp LEFT_PARENTHESIS  &tog 4                                                       &none      &kp RIGHT_PARENTHESIS  &kp U             &kp I         &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &trans         &kp LEFT_BRACKET      &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp RIGHT_BRACKET      &trans            &kp K         &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp LESS_THAN  &kp LEFT_BRACE                             &kp HOME      &kp LA(SPACE)                        &kp RIGHT_BRACE        &kp GREATER_THAN  &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                            &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp SPACE                         &kp DOWN          &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2     &kp N3    &kp N4         &kp N5                &tog 1                                                       &mo 3      &kp N6                 &kp N7            &kp N8        &kp N9     &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W      &kp E     &kp R          &kp LEFT_PARENTHESIS  &tog 4                                                       &none      &kp RIGHT_PARENTHESIS  &kp LA(U)         &kp I         &kp LA(O)  &kp P     &kp BSLH
+&kp ESC    &kp LA(A)  &kp LA(S)  &kp D     &trans         &kp LEFT_BRACKET      &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp RIGHT_BRACKET      &trans            &kp K         &kp L      &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X      &kp C     &kp LESS_THAN  &kp LEFT_BRACE                             &kp HOME      &kp LA(SPACE)                        &kp RIGHT_BRACE        &kp GREATER_THAN  &kp COMMA     &kp DOT    &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS   &kp LEFT  &kp RIGHT                            &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp SPACE                         &kp DOWN          &kp UP_ARROW  &kp LBKT   &kp RBKT  &mo 2
             >;
         };
     };
