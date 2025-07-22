@@ -27,30 +27,19 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                       &mo 3      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &tog 4                                                       &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &lt 5 F    &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp H   &lt 5 J   &kp K         &kp L     &kp SEMI  &kp SQT
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &none                                                        &mo 2      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &tog 3                                                       &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &lt 4 F    &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp H   &lt 4 J   &kp K         &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp LA(SPACE)                        &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 2
-            >;
-        };
-
-        keypad {
-            display-name = "Kp";
-            bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                       &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &tog 4                                                       &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp LA(SPACE)                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp KP_N0          &kp DOWN    &kp UP_ARROW  &kp KP_DOT     &kp RBKT         &mo 2
+&mo 1      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 1
             >;
         };
 
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &tog 4                                      &none   &trans  &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &none                                       &mo 2   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &tog 3                                      &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
@@ -71,22 +60,22 @@
         gaming {
             display-name = "Gaming";
             bindings = <
-&none       &kp N1          &kp N2  &kp N3  &kp N4  &kp N5  &none                                                        &mo 3      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
+&none       &kp N1          &kp N2  &kp N3  &kp N4  &kp N5  &none                                                        &mo 2      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
 &none       &none           &kp Q   &kp W   &kp E   &kp R   &trans                                                       &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
 &kp ESCAPE  &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &none      &kp G    &kp ENTER      &kp LGUI       &kp RCTRL  &none      &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
 &none       &kp LCTRL       &kp Z   &kp X   &kp C   &kp V                       &kp M          &kp LA(SPACE)                        &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&none       &kp LEFT_ALT    &none   &kp N   &kp T           &kp SPACE  &kp TAB  &kp B          &kp LG(SPACE)  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 2
+&none       &kp LEFT_ALT    &none   &kp N   &kp T           &kp SPACE  &kp TAB  &kp B          &kp LG(SPACE)  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 1
             >;
         };
 
         home_row_mods {
             display-name = "hm";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2     &kp N3    &kp N4         &kp N5                &tog 1                                                       &mo 3      &kp N6                 &kp N7            &kp N8        &kp N9     &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W      &kp E     &kp R          &kp LEFT_PARENTHESIS  &tog 4                                                       &none      &kp RIGHT_PARENTHESIS  &kp LA(U)         &kp I         &kp LA(O)  &kp P     &kp BSLH
+&kp EQUAL  &kp N1     &kp N2     &kp N3    &kp N4         &kp N5                &none                                                        &mo 2      &kp N6                 &kp N7            &kp N8        &kp N9     &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W      &kp E     &kp R          &kp LEFT_PARENTHESIS  &tog 3                                                       &none      &kp RIGHT_PARENTHESIS  &kp LA(U)         &kp I         &kp LA(O)  &kp P     &kp BSLH
 &kp ESC    &kp LA(A)  &kp LA(S)  &kp D     &trans         &kp LEFT_BRACKET      &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp RIGHT_BRACKET      &trans            &kp K         &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X      &kp C     &kp LESS_THAN  &kp LEFT_BRACE                             &kp HOME      &kp LA(SPACE)                        &kp RIGHT_BRACE        &kp GREATER_THAN  &kp COMMA     &kp DOT    &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS   &kp LEFT  &kp RIGHT                            &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp SPACE                         &kp DOWN          &kp UP_ARROW  &kp LBKT   &kp RBKT  &mo 2
+&mo 1      &kp GRAVE  &kp CAPS   &kp LEFT  &kp RIGHT                            &kp BSPC  &kp DEL    &kp END       &kp LG(SPACE)  &kp ENTER  &kp SPACE                         &kp DOWN          &kp UP_ARROW  &kp LBKT   &kp RBKT  &mo 1
             >;
         };
     };
