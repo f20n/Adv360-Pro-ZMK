@@ -72,9 +72,9 @@
             display-name = "hm";
             bindings = <
 &kp EQUAL  &kp N1     &kp N2     &kp N3            &kp N4             &kp N5                &none                                                        &mo 2      &kp N6                 &kp N7            &kp N8                &kp N9     &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W      &kp E             &kp R              &kp LEFT_PARENTHESIS  &tog 3                                                       &none      &kp RIGHT_PARENTHESIS  &kp LA(U)         &kp I                 &kp LA(O)  &kp P     &kp BSLH
-&kp ESC    &kp LA(A)  &kp LA(S)  &kp D             &kp F              &kp LEFT_BRACE        &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp RIGHT_BRACE        &kp J             &kp K                 &kp L      &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp LG(X)  &kp LG(C)         &kp LG(V)          &kp LEFT_BRACKET                           &kp HOME      &kp LA(SPACE)                        &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp COMMA             &kp DOT    &kp FSLH  &kp RSHFT
+&kp TAB    &kp LG(Q)  &kp W      &kp E             &kp R              &kp LEFT_PARENTHESIS  &tog 3                                                       &none      &kp RIGHT_PARENTHESIS  &kp LA(U)         &kp I                 &kp LA(O)  &kp P     &kp BSLH
+&kp ESC    &kp LA(A)  &kp LA(S)  &kp D             &kp LG(F)          &kp LEFT_BRACE        &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp RIGHT_BRACE        &kp J             &kp K                 &kp L      &kp SEMI  &kp SQT
+&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)         &kp LG(V)          &kp LEFT_BRACKET                           &kp HOME      &kp LA(SPACE)                        &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp COMMA             &kp DOT    &kp FSLH  &kp RSHFT
 &mo 1      &kp GRAVE  &kp CAPS   &kp LA(LG(LEFT))  &kp LG(LA(RIGHT))                        &kp BSPC  &kp DEL    &trans        &trans         &kp ENTER  &kp SPACE                         &kp LG(LA(DOWN))  &kp LG(LA(UP_ARROW))  &kp LBKT   &kp RBKT  &mo 1
             >;
         };
