@@ -72,7 +72,7 @@
             display-name = "sr";
             bindings = <
 &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &none                                                            &mo 7      &kp LS(LA(LC(LG(N6))))  &kp LS(LA(LC(LG(N7))))  &kp LG(LC(LS(LA(N8))))     &kp LS(LA(LC(LG(N9))))   &kp LS(LA(LC(LG(N0))))    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &tog 1                                                           &none      &kp LS(LG(LC(LA(Y))))   &kp LS(LA(LC(LG(U))))   &kp LS(LA(LC(LG(I))))      &kp LS(LA(LC(LG(O))))    &kp LC(LG(LA(LS(P))))     &kp BSLH
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &tog 1                                                           &none      &kp LS(LG(LC(LA(Y))))   &kp LA(U)               &kp LS(LA(LC(LG(I))))      &kp LA(O)                &kp LC(LG(LA(LS(P))))     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &trans     &kp G   &none     &kp LCTRL  &kp LEFT_GUI      &kp LEFT_ALT   &kp RCTRL  &none      &kp LS(LA(LC(LG(H))))   &kp LS(LA(LC(LG(J))))   &kp LS(LC(LG(LA(K))))      &kp LS(LA(LC(LG(L))))    &kp LA(LC(LG(LS(SEMI))))  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME          &kp LA(SPACE)                        &kp LS(LA(LC(LG(N))))   &kp LS(LA(LC(LG(M))))   &kp LS(LA(LC(LG(COMMA))))  &kp LS(LA(LC(LG(DOT))))  &kp LS(LA(LC(LG(FSLH))))  &kp LEFT_SHIFT
 &mo 6      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END           &kp LG(SPACE)  &kp ENTER  &kp SPACE                          &kp DOWN                &kp UP_ARROW               &kp LBKT                 &kp RBKT                  &mo 6
@@ -84,7 +84,7 @@
             bindings = <
 &kp EQUAL  &kp LC(LG(LA(LS(N1))))  &kp LA(LC(LG(LS(N2))))  &kp LA(LC(LG(LS(N3))))  &kp LS(LA(LG(LC(N4))))  &kp LS(LA(LC(LG(N5))))  &none                                                            &mo 7      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
 &kp TAB    &kp LS(LA(LC(LG(Q))))   &kp LS(LC(LA(LG(W))))   &kp LS(LA(LC(LG(E))))   &kp LS(LC(LG(LA(R))))   &kp LS(LA(LC(LG(T))))   &tog 1                                                           &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
-&kp ESC    &kp LS(LA(LC(LG(A))))   &kp LA(LS(LC(LG(S))))   &kp LS(LG(LC(LA(D))))   &kp LS(LA(LC(LG(F))))   &kp LS(LA(LC(LG(G))))   &none     &kp LCTRL  &kp LEFT_GUI      &kp LEFT_ALT   &kp RCTRL  &none      &kp H   &kp J     &trans        &kp L     &kp SEMI  &kp SQT
+&kp ESC    &kp LA(A)               &kp LA(S)               &kp LS(LG(LC(LA(D))))   &kp LS(LA(LC(LG(F))))   &kp LS(LA(LC(LG(G))))   &none     &kp LCTRL  &kp LEFT_GUI      &kp LEFT_ALT   &kp RCTRL  &none      &kp H   &kp J     &trans        &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp LS(LA(LC(LG(Z))))   &kp LS(LA(LC(LG(X))))   &kp LS(LA(LC(LG(C))))   &kp LS(LA(LC(LG(V))))   &kp LS(LA(LC(LG(B))))                        &kp HOME          &kp LA(SPACE)                        &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp LEFT_SHIFT
 &mo 6      &kp GRAVE               &kp CAPS                &kp LEFT                &kp RIGHT                                       &kp BSPC  &kp DEL    &kp END           &kp LG(SPACE)  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 6
             >;
